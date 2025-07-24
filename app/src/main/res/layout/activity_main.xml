@@ -1,92 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <WebView
-        android:id="@+id/webview"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
-    <EditText
-        android:id="@+id/url_input"
+    <Spinner
+        android:id="@+id/icon_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:hint="Enter URL"
-        android:layout_marginTop="300px"
-        android:inputType="textUri" />
+        android:layout_margin="100dp"
+        android:layout_marginTop="900dp"
+        android:prompt="@string/select_icon_prompt"
+         />
 
     <Button
         android:id="@+id/load_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/url_input"
+        android:layout_below="@id/icon_input"
         android:layout_centerHorizontal="true"
-        android:text="Load" />
-
-    <Button
-        android:id="@+id/javascript_enable_settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/load_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="JavaScript Enabled"
-        android:backgroundTint="@color/button_enabled_color"/>
-
-    <Button
-        android:id="@+id/local_storage_enable_settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/javascript_enable_settings_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="Local Storage Enabled"
-        android:backgroundTint="@color/button_enabled_color"/>
-
-    <Button
-        android:id="@+id/user_agent_enable_settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/local_storage_enable_settings_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="User Agent Enabled"
-        android:backgroundTint="@color/button_enabled_color"/>
-
-    <Button
-        android:id="@+id/content_access_enable_settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/user_agent_enable_settings_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="Content Access Enabled"
-        android:backgroundTint="@color/button_enabled_color"/>
-
-    <Button
-        android:id="@+id/file_access_enable_settings_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/content_access_enable_settings_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="File Access Enabled"
-        android:backgroundTint="@color/button_enabled_color"/>
-
-    <Button
-        android:id="@+id/allow_camera_access"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/user_agent_enable_settings_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:text="Give Camera Access"
-        android:backgroundTint="@color/button_enabled_color"/>
+        android:layout_marginTop="100dp"
+        android:text="@string/switch_icon" />
 
 </RelativeLayout>
