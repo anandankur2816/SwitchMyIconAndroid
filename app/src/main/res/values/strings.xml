@@ -8,5 +8,6 @@
     <string-array name="icon_options">
         <item>Default</item>
         <item>PixelPop</item>
+        <item>Boltify</item>
     </string-array>
 </resources>

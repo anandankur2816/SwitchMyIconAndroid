@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private List<String> apkIconComponentNameEnabledList = new ArrayList<>(Arrays.asList("com.example.webview.DefaultIconAlias",
-            "com.example.webview.PixelPopIconAlias"));
+            "com.example.webview.PixelPopIconAlias", "com.example.webview.BoltifyIconAlias"));
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

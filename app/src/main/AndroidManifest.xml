@@ -58,6 +58,18 @@
             </intent-filter>
         </activity-alias>
 
+        <activity-alias
+            android:name="com.example.webview.BoltifyIconAlias"
+            android:targetActivity="com.example.webview.MainActivity"
+            android:icon="@mipmap/boltify_icon"
+            android:exported="true"
+            android:enabled="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
 
     </application>
 
