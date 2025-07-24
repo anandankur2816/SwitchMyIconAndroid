@@ -41,7 +41,7 @@ jobs:
           # This gets the URL for uploading assets to the current release
           upload_url: ${{ github.event.release.upload_url }} 
           # This is the path to the file you want to upload
-          asset_path: ./app/build/outputs/apk/release/app-release-unsigned.apk
+          asset_path: ./app/build/outputs/apk/release/app-release.apk
           # This is the name the file will have in the release
           asset_name: switchMyIcon.apk
           # This is the content type of the asset
