@@ -43,6 +43,6 @@ jobs:
           # This is the path to the file you want to upload
           asset_path: ./app/build/outputs/apk/release/app-release-unsigned.apk
           # This is the name the file will have in the release
-          asset_name: webview.apk
+          asset_name: switchMyIcon.apk
           # This is the content type of the asset
           asset_content_type: application/vnd.android.package-archive

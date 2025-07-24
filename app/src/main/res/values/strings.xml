@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">webview</string>
+    <string name="app_name">Switch My Icon</string>
     <string name="switch_icon">Switch Icon</string>
     <string name="enter_icon_name">Enter Icon Name</string>
     <string name="select_icon_prompt">Select an Icon</string>

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.webview'
+    namespace 'com.example.switchMyIcon'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.webview"
+        applicationId "com.example.switchMyIcon"
         minSdk 24
         targetSdk 34
         versionCode 1
