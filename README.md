@@ -22,8 +22,6 @@ Check out the video demo below to see it in action:
 
 ▶️ [Watch Demo on Google Drive](https://drive.google.com/file/d/1seHxmBNfGn8_-6LXyGGTCVfH4WhkkqMu/view?usp=sharing)
 
-> Replace the above link with your actual Google Drive video URL.
-
 ## 🛠️ Tech Stack
 
 - Java (Android)
